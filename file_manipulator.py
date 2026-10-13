@@ -1,10 +1,10 @@
 import sys
 
 command = sys.argv[1]
-input_path = sys.argv[2]
-output_path = sys.argv[3]
+input_path = sys.argv[2]]
 
 if command == "reverse":
+    output_path = sys.argv[3]
 
     with open(input_path, "r") as file:
         content = file.read()
@@ -16,6 +16,7 @@ if command == "reverse":
 
 
 elif command == "copy":
+    output_path = sys.argv[3]
 
     with open(input_path, "r") as file:
         content = file.read()
@@ -25,6 +26,7 @@ elif command == "copy":
 
 
 elif command == "duplicate-contents":
+    output_path = sys.argv[4]
     times = int(output_path)
 
     with open(input_path, "r") as file:
