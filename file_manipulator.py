@@ -26,7 +26,7 @@ elif command == "copy":
 
 
 elif command == "duplicate-contents":
-    output_path = sys.argv[4]
+    output_path = sys.argv[3]
     times = int(output_path)
 
     with open(input_path, "r") as file:
