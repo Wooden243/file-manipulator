@@ -1,7 +1,7 @@
 import sys
 
 command = sys.argv[1]
-input_path = sys.argv[2]]
+input_path = sys.argv[2]
 
 if command == "reverse":
     output_path = sys.argv[3]
