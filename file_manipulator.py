@@ -32,7 +32,7 @@ elif command == "duplicate-contents":
     with open(input_path, "r") as file:
         content = file.read()
 
-    with open(input_path, "a") as file:
+    with open(input_path, "w") as file:
         file.write(content * times)
 
 
